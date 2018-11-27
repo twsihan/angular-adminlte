@@ -1,0 +1,24 @@
+<!--[if lt IE 8]>
+<p class="browsehappy">
+  你正在使用一个<strong>过时</strong>的浏览器。请<a class="link" href="http://browsehappy.com" target="_blank">升级你的浏览器</a>以查看微信网页版。</p>
+</p>
+<![endif]-->
+<div class="wrapper">
+  <app-header></app-header>
+  <!-- Left side column. contains the logo and sidebar -->
+  <app-navigation></app-navigation>
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <app-breadcrumb></app-breadcrumb>
+    <!-- Main content -->
+    <section class="content">
+      <router-outlet></router-outlet>
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+  <app-footer></app-footer>
+  <!-- /.control-sidebar -->
+  <app-control></app-control>
+</div>
